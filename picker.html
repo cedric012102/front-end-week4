@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horse Hotel</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body class="container">
+
+    <div class="card">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-sm">
+                   <div class="form-group">
+                       <label for="new-checkin-date">Check In Date</label> 
+                       <input type="date" class="form-control" id="new-checkin-date">
+        
+                   </div> 
+        
+                </div>
+                <div class="col-sm">
+                    <div class="form-group">
+                        <label for="new-checkout-date">Check Out Date</label> 
+                        <input type="date" class="form-control" id="new-checkout-date">
+         
+                    </div> 
+        
+                </div>
+        
+            </div>
+            <div class="row">
+                <div class="col-sm">
+                    <div class="form-group">
+                        <label for="new-horse">Horse Name</label> 
+                        <input type="text" class="form-control" id="new-horse" placeholder="Horse Name">
+         
+                      </div> 
+                   </div>
+                  
+               </div>
+
+    <div>
+    <h3>Howdy Doo!</h3>
+    <p>Click create to reserve your horse's staycation!</p>
+    <button id="btn btn-primary" id="test-button">Create</button>
+    </div>
+
+    <table id="list" class="table table-dark table-striped">
+        <tr>
+            <th>Horse Name</th>
+            <th>Date Created</th>
+            <th>Check In Date</th>
+            <th>Check out Date</th>
+            
+        </tr>
+    </table>
+    
+
+
+
+
+
+
+
+
+
+
+
+    <script type="text/javascript" src="picker.js"></script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
